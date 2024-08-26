@@ -12,9 +12,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 $(call inherit-product, device/xiaomi/vermeer/device.mk)
 
 # Inherit from the AOSP configuration.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
-PRODUCT_NAME := aosp_vermeer
+PRODUCT_NAME := derp_vermeer
 PRODUCT_DEVICE := vermeer
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := POCO
